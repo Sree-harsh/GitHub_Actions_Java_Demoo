@@ -63,8 +63,8 @@ jobs:
 
     - name: Display URL
       run: |
-        kubectl get pods -n github-action-ns
-        kubectl get svc -n github-action-ns
+        kubectl get pods -n github-action-sreeharsh
+        kubectl get svc -n github-action-sreeharsh
 
     - name: Wait for LoadBalancer and Display Full URL
       run: |
